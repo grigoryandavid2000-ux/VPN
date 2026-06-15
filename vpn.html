@@ -1,0 +1,139 @@
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Что такое VPN, зачем он появился и как защищённый туннель меняет путь сетевого трафика.">
+        <title>VPN: назначение и работа — VPNLab</title>
+        <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script defer src="assets/js/main.js"></script>
+    </head>
+    <body data-page="vpn">
+        <div class="page-bg" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="На главную">
+            <span class="brand-mark"></span>
+            <span>VPN<span>Lab</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Открыть меню">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links"><a href="index.html" class="">Главная</a>
+<a href="internet.html" class="">Интернет</a>
+<a href="vpn.html" class="active">VPN</a>
+<a href="dpi.html" class="">DPI</a>
+<a href="tspu.html" class="">ТСПУ</a>
+<a href="tunneling.html" class="">Туннели</a>
+<a href="vps.html" class="">VPS</a>
+<a href="wireguard.html" class="">WireGuard</a>
+<a href="tailscale.html" class="">Tailscale</a>
+<a href="obfuscation.html" class="">Обфускация</a>
+<a href="amvera.html" class="">Amvera</a>
+<a href="codex.html" class="">Codex</a>
+<a href="practice.html" class="">Практика</a>
+<a href="results.html" class="">Результаты</a>
+<a href="examples.html" class="">Примеры</a></nav>
+    </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-copy reveal">
+                    <span class="eyebrow">главы 2–3</span>
+                    <h1>VPN: назначение и работа</h1>
+                    <p>Что такое VPN, зачем он появился и как защищённый туннель меняет путь сетевого трафика.</p>
+                    <div class="hero-actions"><a class="btn primary" href="index.html">К главной</a><a class="btn ghost" href="examples.html">Примеры</a></div>
+                </div>
+                <div class="hero-art hero-image-card reveal"><img src="assets/images/hero-vpn.png" alt="Изображение раздела VPN: назначение и работа"></div>
+            </section>
+            <div class="page-pills reveal"><a href="index.html" class="pill-link ">Главная</a><a href="internet.html" class="pill-link ">Интернет</a><a href="vpn.html" class="pill-link active">VPN</a><a href="dpi.html" class="pill-link ">DPI</a><a href="tspu.html" class="pill-link ">ТСПУ</a><a href="tunneling.html" class="pill-link ">Туннели</a><a href="vps.html" class="pill-link ">VPS</a><a href="wireguard.html" class="pill-link ">WireGuard</a><a href="tailscale.html" class="pill-link ">Tailscale</a><a href="obfuscation.html" class="pill-link ">Обфускация</a><a href="amvera.html" class="pill-link ">Amvera</a><a href="codex.html" class="pill-link ">Codex</a><a href="practice.html" class="pill-link ">Практика</a><a href="results.html" class="pill-link ">Результаты</a><a href="examples.html" class="pill-link ">Примеры</a></div>
+
+        <section class="split-section">
+            <div class="split-copy reveal">
+                <span class="chapter-num">01</span>
+                <h2>Зачем появился VPN</h2>
+                <p>По мере развития Интернета всё больше данных стало передаваться через публичные сети. Пользователи начали работать удалённо, получать доступ к корпоративным ресурсам, проводить финансовые операции и хранить конфиденциальную информацию в облачных сервисах. В результате возникла серьёзная проблема безопасности.</p>
+                <ul class="detail-list"><li>связь теории с практическим применением</li><li>связь теории с практическим применением</li><li>связь теории с практическим применением</li></ul>
+            </div>
+            <div class="visual-tile reveal">
+                <div class="mini-orbit"><span></span><span></span><span></span><span></span></div>
+                <p>Зачем появился VPN</p>
+            </div>
+        </section>
+
+
+        <section class="split-section reverse">
+            <div class="split-copy reveal">
+                <span class="chapter-num">02</span>
+                <h2>Принцип туннеля</h2>
+                <p>Представим обычную ситуацию. Пользователь подключается к общественной сети Wi-Fi в кафе или аэропорту. Без дополнительных средств защиты весь сетевой трафик проходит через инфраструктуру, которая не принадлежит пользователю. Теоретически злоумышленник может попытаться перехватить передаваемые данные, а администратор сети способен видеть значительную часть сетевой активности.</p>
+                <ul class="detail-list"><li>защита передаваемой информации</li><li>удобство для пользователя</li><li>связь теории с практическим применением</li></ul>
+            </div>
+            <div class="visual-tile reveal">
+                <div class="mini-orbit"><span></span><span></span><span></span><span></span></div>
+                <p>Принцип туннеля</p>
+            </div>
+        </section>
+
+
+        <section class="split-section">
+            <div class="split-copy reveal">
+                <span class="chapter-num">03</span>
+                <h2>Что меняется для пользователя</h2>
+                <p>Именно для решения подобных задач были разработаны виртуальные частные сети, более известные как VPN.</p>
+                <ul class="detail-list"><li>создание защищённого канала</li><li>связь теории с практическим применением</li><li>связь теории с практическим применением</li></ul>
+            </div>
+            <div class="visual-tile reveal">
+                <div class="mini-orbit"><span></span><span></span><span></span><span></span></div>
+                <p>Что меняется для пользователя</p>
+            </div>
+        </section>
+
+
+        <section class="split-section reverse">
+            <div class="split-copy reveal">
+                <span class="chapter-num">04</span>
+                <h2>Преимущества и ограничения</h2>
+                <p>Основная идея VPN заключается в создании защищённого канала связи поверх обычного Интернета. Пользователь подключается не напрямую к сайту или сервису, а сначала устанавливает защищённое соединение с VPN-сервером. После этого весь трафик проходит через данный сервер в зашифрованном виде.</p>
+                <ul class="detail-list"><li>создание защищённого канала</li><li>использование серверной инфраструктуры</li><li>защита передаваемой информации</li><li>удобство для пользователя</li></ul>
+            </div>
+            <div class="visual-tile reveal">
+                <div class="mini-orbit"><span></span><span></span><span></span><span></span></div>
+                <p>Преимущества и ограничения</p>
+            </div>
+        </section>
+
+
+        <section class="split-section">
+            <div class="split-copy reveal">
+                <span class="chapter-num">05</span>
+                <h2>Где применяется</h2>
+                <p>Для лучшего понимания можно использовать аналогию с почтовой системой. Представим, что обычный интернет-трафик — это открытка. Любой, кто получает доступ к ней во время доставки, может прочитать содержимое. VPN работает как запечатанный бронированный контейнер, внутри которого находятся все ваши сообщения. Снаружи виден только факт существования контейнера и адрес доставки, но содержимое остаётся недоступным.</p>
+                <ul class="detail-list"><li>создание защищённого канала</li><li>связь теории с практическим применением</li><li>связь теории с практическим применением</li></ul>
+            </div>
+            <div class="visual-tile reveal">
+                <div class="mini-orbit"><span></span><span></span><span></span><span></span></div>
+                <p>Где применяется</p>
+            </div>
+        </section>
+
+
+        <section class="split-section reverse">
+            <div class="split-copy reveal">
+                <span class="chapter-num">06</span>
+                <h2>Практическое значение</h2>
+                <p>Первые VPN-технологии появились ещё в 1990-х годах. Изначально они использовались крупными компаниями для организации удалённого доступа сотрудников к корпоративным сетям. Это позволяло работникам безопасно подключаться к офисным ресурсам из дома или командировки.</p>
+                <ul class="detail-list"><li>создание защищённого канала</li><li>связь теории с практическим применением</li><li>связь теории с практическим применением</li></ul>
+            </div>
+            <div class="visual-tile reveal">
+                <div class="mini-orbit"><span></span><span></span><span></span><span></span></div>
+                <p>Практическое значение</p>
+            </div>
+        </section>
+
+
+        </main>
+        <footer><span>VPNLab</span><p>Учебный сайт по современным сетевым технологиям и защищённой передаче данных.</p></footer>
+    </body>
+    </html>

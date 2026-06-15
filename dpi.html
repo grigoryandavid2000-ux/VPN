@@ -1,0 +1,139 @@
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Как системы DPI исследуют сетевые потоки и почему шифрование ограничивает их возможности.">
+        <title>DPI — глубокий анализ трафика — VPNLab</title>
+        <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script defer src="assets/js/main.js"></script>
+    </head>
+    <body data-page="dpi">
+        <div class="page-bg" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="На главную">
+            <span class="brand-mark"></span>
+            <span>VPN<span>Lab</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Открыть меню">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links"><a href="index.html" class="">Главная</a>
+<a href="internet.html" class="">Интернет</a>
+<a href="vpn.html" class="">VPN</a>
+<a href="dpi.html" class="active">DPI</a>
+<a href="tspu.html" class="">ТСПУ</a>
+<a href="tunneling.html" class="">Туннели</a>
+<a href="vps.html" class="">VPS</a>
+<a href="wireguard.html" class="">WireGuard</a>
+<a href="tailscale.html" class="">Tailscale</a>
+<a href="obfuscation.html" class="">Обфускация</a>
+<a href="amvera.html" class="">Amvera</a>
+<a href="codex.html" class="">Codex</a>
+<a href="practice.html" class="">Практика</a>
+<a href="results.html" class="">Результаты</a>
+<a href="examples.html" class="">Примеры</a></nav>
+    </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-copy reveal">
+                    <span class="eyebrow">глава 4</span>
+                    <h1>DPI — глубокий анализ трафика</h1>
+                    <p>Как системы DPI исследуют сетевые потоки и почему шифрование ограничивает их возможности.</p>
+                    <div class="hero-actions"><a class="btn primary" href="index.html">К главной</a><a class="btn ghost" href="examples.html">Примеры</a></div>
+                </div>
+                <div class="hero-art hero-image-card reveal"><img src="assets/images/hero-dpi.png" alt="Изображение раздела DPI — глубокий анализ трафика"></div>
+            </section>
+            <div class="page-pills reveal"><a href="index.html" class="pill-link ">Главная</a><a href="internet.html" class="pill-link ">Интернет</a><a href="vpn.html" class="pill-link ">VPN</a><a href="dpi.html" class="pill-link active">DPI</a><a href="tspu.html" class="pill-link ">ТСПУ</a><a href="tunneling.html" class="pill-link ">Туннели</a><a href="vps.html" class="pill-link ">VPS</a><a href="wireguard.html" class="pill-link ">WireGuard</a><a href="tailscale.html" class="pill-link ">Tailscale</a><a href="obfuscation.html" class="pill-link ">Обфускация</a><a href="amvera.html" class="pill-link ">Amvera</a><a href="codex.html" class="pill-link ">Codex</a><a href="practice.html" class="pill-link ">Практика</a><a href="results.html" class="pill-link ">Результаты</a><a href="examples.html" class="pill-link ">Примеры</a></div>
+
+        <section class="split-section">
+            <div class="split-copy reveal">
+                <span class="chapter-num">01</span>
+                <h2>Что анализирует DPI</h2>
+                <p>Одной из самых интересных технологий, появившихся вместе с развитием Интернета, стал глубокий анализ пакетов данных, более известный как DPI (Deep Packet Inspection).</p>
+                <ul class="detail-list"><li>анализ и классификация сетевого трафика</li><li>связь теории с практическим применением</li><li>связь теории с практическим применением</li></ul>
+            </div>
+            <div class="visual-tile reveal">
+                <div class="mini-orbit"><span></span><span></span><span></span><span></span></div>
+                <p>Что анализирует DPI</p>
+            </div>
+        </section>
+
+
+        <section class="split-section reverse">
+            <div class="split-copy reveal">
+                <span class="chapter-num">02</span>
+                <h2>Задачи технологии</h2>
+                <p>Чтобы понять необходимость DPI, необходимо вспомнить, как работает обычный маршрутизатор.</p>
+                <ul class="detail-list"><li>анализ и классификация сетевого трафика</li><li>связь теории с практическим применением</li><li>связь теории с практическим применением</li></ul>
+            </div>
+            <div class="visual-tile reveal">
+                <div class="mini-orbit"><span></span><span></span><span></span><span></span></div>
+                <p>Задачи технологии</p>
+            </div>
+        </section>
+
+
+        <section class="split-section">
+            <div class="split-copy reveal">
+                <span class="chapter-num">03</span>
+                <h2>Ограничения при шифровании</h2>
+                <p>Обычный маршрутизатор анализирует только адрес назначения пакета и принимает решение о его дальнейшей передаче. Его можно сравнить с сотрудником почты, который смотрит исключительно адрес на конверте.</p>
+                <ul class="detail-list"><li>анализ и классификация сетевого трафика</li><li>связь теории с практическим применением</li><li>связь теории с практическим применением</li></ul>
+            </div>
+            <div class="visual-tile reveal">
+                <div class="mini-orbit"><span></span><span></span><span></span><span></span></div>
+                <p>Ограничения при шифровании</p>
+            </div>
+        </section>
+
+
+        <section class="split-section reverse">
+            <div class="split-copy reveal">
+                <span class="chapter-num">04</span>
+                <h2>Практическое значение</h2>
+                <p>Если использовать бытовую аналогию, DPI похож на рентгеновский сканер в аэропорту. Такой сканер позволяет увидеть содержимое багажа без необходимости открывать чемодан.</p>
+                <ul class="detail-list"><li>анализ и классификация сетевого трафика</li><li>связь теории с практическим применением</li><li>связь теории с практическим применением</li></ul>
+            </div>
+            <div class="visual-tile reveal">
+                <div class="mini-orbit"><span></span><span></span><span></span><span></span></div>
+                <p>Практическое значение</p>
+            </div>
+        </section>
+
+
+        <section class="split-section">
+            <div class="split-copy reveal">
+                <span class="chapter-num">05</span>
+                <h2>Практическое значение</h2>
+                <p>* структуру соединения; * используемые протоколы; * размеры пакетов; * временные интервалы между пакетами; * особенности работы приложений; * сигнатуры программного обеспечения.</p>
+                <ul class="detail-list"><li>связь теории с практическим применением</li><li>связь теории с практическим применением</li><li>связь теории с практическим применением</li></ul>
+            </div>
+            <div class="visual-tile reveal">
+                <div class="mini-orbit"><span></span><span></span><span></span><span></span></div>
+                <p>Практическое значение</p>
+            </div>
+        </section>
+
+
+        <section class="split-section reverse">
+            <div class="split-copy reveal">
+                <span class="chapter-num">06</span>
+                <h2>Практическое значение</h2>
+                <p>Благодаря этому система может определить характер трафика даже тогда, когда данные передаются в зашифрованном виде.</p>
+                <ul class="detail-list"><li>защита передаваемой информации</li><li>связь теории с практическим применением</li><li>связь теории с практическим применением</li></ul>
+            </div>
+            <div class="visual-tile reveal">
+                <div class="mini-orbit"><span></span><span></span><span></span><span></span></div>
+                <p>Практическое значение</p>
+            </div>
+        </section>
+
+
+        </main>
+        <footer><span>VPNLab</span><p>Учебный сайт по современным сетевым технологиям и защищённой передаче данных.</p></footer>
+    </body>
+    </html>
